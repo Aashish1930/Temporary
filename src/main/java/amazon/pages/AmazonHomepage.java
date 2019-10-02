@@ -39,10 +39,10 @@ public class AmazonHomepage extends TestBaseAmazon {
 
 		}
 
-	}
+	} 
 	
 	public void closed(){
-		
+		driver.close();
 	}
 
 }
